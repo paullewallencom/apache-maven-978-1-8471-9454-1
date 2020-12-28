@@ -1,0 +1,18 @@
+This chapter's sample code contains two source trees:
+
+* start
+
+This is the Centrepoint application built up to the section "Fleshing
+out the example application". It can be used as a basis for the rest of
+the exercises in the chapter.
+
+* final
+
+This is the Centrepoint application as it should be at the end of the
+chapter. This can be used as a basis for the examples in chapter 4.
+Likewise, the code from chapter 4 can be used as a basis for the
+examples in chapter 5, and so on.
+
+
+Each subdirectory contains their own README with instructions on
+how to build the application.

@@ -1,0 +1,6 @@
+This is a copy of the release for those that didn't run the examples in chapter 9.
+
+If it is already in Archiva, you do not need to use or install this project.
+
+This is not intended to be a working copy - if you were editing the project, the
+version should be bumped back to 1.1-SNAPSHOT.

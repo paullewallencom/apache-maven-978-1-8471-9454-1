@@ -1,0 +1,8 @@
+<project>
+  <target name="configure">
+    <copy todir="${outputDirectory}/${applicationId}/conf">
+      <fileset dir="${confDirectory}" />                  
+    </copy>
+    <mkdir dir="${outputDirectory}/${applicationId}/logs" />
+  </target>
+</project>

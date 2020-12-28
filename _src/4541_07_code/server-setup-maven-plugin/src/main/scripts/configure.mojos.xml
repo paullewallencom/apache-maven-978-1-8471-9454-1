@@ -1,0 +1,37 @@
+<pluginMetadata>
+  <mojos>
+    <mojo>
+      <goal>configure</goal>
+      <phase>process-resources</phase>
+      <call>configure</call>
+      <description>
+        Configure the server.
+      </description>
+      <parameters>
+        <parameter>
+          <name>applicationId</name> 
+          <property>applicationId</property> 
+          <required>true</required> 
+          <type>java.lang.String</type>
+          <description>The name of the JSW application.</description>
+        </parameter>
+        <parameter>
+          <name>confDirectory</name> 
+          <property>confDirectory</property> 
+          <required>true</required> 
+          <defaultValue>src/main/conf</defaultValue>
+          <type>java.io.File</type>
+          <description>The source of the configuration directory.</description>
+        </parameter>
+        <parameter>
+          <name>outputDirectory</name> 
+          <property>outputDirectory</property> 
+          <required>true</required> 
+          <defaultValue>${project.build.directory}/generated-resources/appassembler/jsw</defaultValue>
+          <type>java.io.File</type>
+          <description>The directory to generate the server in.</description>
+        </parameter>
+      </parameters>
+    </mojo>
+  </mojos>
+</pluginMetadata>

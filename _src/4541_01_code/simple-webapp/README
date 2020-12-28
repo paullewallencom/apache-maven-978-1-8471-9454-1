@@ -1,0 +1,5 @@
+To preview the web application, run:
+
+ mvn jetty:run
+
+The application will be visible at http://localhost:8080/

@@ -1,0 +1,13 @@
+To build and use the application:
+
+ cd centrepoint
+ mvn clean install
+
+After a successful build, you can run the application:
+
+ cd webapp
+ mvn jetty:run
+
+The sample code in the "final" source tree provides a
+standalone application to run.
+
